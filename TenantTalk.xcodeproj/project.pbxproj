@@ -21,6 +21,8 @@
 		0EAB13F92B6D45E00044BFA4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB13F82B6D45E00044BFA4 /* Utils.swift */; };
 		0EE6C8922B73012A00E2D702 /* AddIssueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE6C8912B73012A00E2D702 /* AddIssueViewController.swift */; };
 		0EE6C8942B73013E00E2D702 /* AddIssue.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE6C8932B73013E00E2D702 /* AddIssue.storyboard */; };
+		0EE6C8972B73093E00E2D702 /* CameraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE6C8952B73093E00E2D702 /* CameraTableViewCell.swift */; };
+		0EE6C8982B73093E00E2D702 /* CameraTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EE6C8962B73093E00E2D702 /* CameraTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		0EAB13F82B6D45E00044BFA4 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		0EE6C8912B73012A00E2D702 /* AddIssueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIssueViewController.swift; sourceTree = "<group>"; };
 		0EE6C8932B73013E00E2D702 /* AddIssue.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddIssue.storyboard; sourceTree = "<group>"; };
+		0EE6C8952B73093E00E2D702 /* CameraTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTableViewCell.swift; sourceTree = "<group>"; };
+		0EE6C8962B73093E00E2D702 /* CameraTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 			children = (
 				0EE6C8912B73012A00E2D702 /* AddIssueViewController.swift */,
 				0EE6C8932B73013E00E2D702 /* AddIssue.storyboard */,
+				0EE6C8952B73093E00E2D702 /* CameraTableViewCell.swift */,
+				0EE6C8962B73093E00E2D702 /* CameraTableViewCell.xib */,
 			);
 			path = "Add Issue";
 			sourceTree = "<group>";
@@ -183,6 +189,7 @@
 			files = (
 				0EE6C8942B73013E00E2D702 /* AddIssue.storyboard in Resources */,
 				0E636FFA2B6CB9550062FAD7 /* DashboardTableViewCell.xib in Resources */,
+				0EE6C8982B73093E00E2D702 /* CameraTableViewCell.xib in Resources */,
 				0E636FE82B6CAE620062FAD7 /* LaunchScreen.storyboard in Resources */,
 				0E636FE52B6CAE620062FAD7 /* Assets.xcassets in Resources */,
 				0E636FE32B6CAE600062FAD7 /* Main.storyboard in Resources */,
@@ -197,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE6C8972B73093E00E2D702 /* CameraTableViewCell.swift in Sources */,
 				0EE6C8922B73012A00E2D702 /* AddIssueViewController.swift in Sources */,
 				0E636FF92B6CB9550062FAD7 /* DashboardTableViewCell.swift in Sources */,
 				0E636FE02B6CAE600062FAD7 /* ViewController.swift in Sources */,

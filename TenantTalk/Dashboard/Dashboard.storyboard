@@ -198,6 +198,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                <connections>
+                                    <action selector="navigateToAddIssue:" destination="VwK-VJ-23D" eventType="touchUpInside" id="h0A-gp-SND"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Mk1-wo-Ixp"/>

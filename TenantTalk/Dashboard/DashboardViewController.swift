@@ -24,6 +24,10 @@ class DashboardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        initialSetup()
+    }
+    
+    func initialSetup() {
         dbTblViw.register(UINib(nibName: "DashboardTableViewCell", bundle: nil), forCellReuseIdentifier: "DashboardTableViewCell")
         
         self.view.backgroundColor = Colors.shared.background
@@ -41,6 +45,12 @@ class DashboardViewController: UIViewController {
     }
     
     
+    @IBAction func navigateToAddIssue(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "AddIssue", bundle: nil)
+        let controller = storyboard.instantiateViewController(identifier: "AddIssueViewController") as! AddIssueViewController
+        controller.modalPresentationStyle = .fullScreen
+        self.present(controller, animated: true)
+    }
     
     @IBAction func handleTopCategoryClick(_ sender: UIButton) {
         if sender.tag == 10 {
